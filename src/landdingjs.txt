@@ -1,0 +1,38 @@
+import React from 'react';
+import { Button } from '../components/ui/button'; // {} 사용
+import { Card, CardContent } from '../components/ui/card';
+import { Link } from 'react-router-dom';
+import { MessageCircle, TrendingUp, Award } from 'lucide-react';
+
+export default function LandingPage() {
+  const advantages = [
+    { icon: <MessageCircle className="h-6 w-6 text-green-600" />, title: "실제 같은 대화", description: "AI와의 자연스러운 대화로 실제 면접 환경을 경험하세요." },
+    { icon: <TrendingUp className="h-6 w-6 text-blue-600" />, title: "커리어 향상", description: "자신감 있는 면접 준비로 커리어 성장을 도모하세요." },
+    { icon: <Award className="h-6 w-6 text-yellow-600" />, title: "맞춤형 피드백", description: "개인 맞춤형 피드백을 통해 약점을 보완하세요." }
+  ];
+
+  return (
+    <div className="landing-page">
+      <h1>Welcome to AI Mock Interview</h1>
+      <div className="advantages">
+        {advantages.map((adv, index) => (
+          <Card key={index}>
+            <CardContent>
+              {adv.icon}
+              <h3>{adv.title}</h3>
+              <p>{adv.description}</p>
+            </CardContent>
+          </Card>
+        ))}
+      </div>
+      <div className="auth-buttons">
+        <Link to="/auth">
+          <Button>로그인</Button>
+        </Link>
+        <Link to="/auth">
+          <Button>회원가입</Button>
+        </Link>
+      </div>
+    </div>
+  );
+}

@@ -1,0 +1,58 @@
+.result-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .result-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .company-info p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .score-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .average-score {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .feedback-section {
+    margin-top: 20px;
+  }
+  
+  .feedback-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-item h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .feedback-item p {
+    font-size: 16px;
+  }
+  
+  .feedback-item span {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,104 @@
+/* 메인 컨테이너 */
+.interview-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* 박스 스타일 */
+  .interview-box {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* 헤더 스타일 */
+  .interview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .interview-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .new-interview-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-interview-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 카드 스타일 */
+  .interview-card {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .interview-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .interview-icon {
+    margin-bottom: 20px;
+  }
+  
+  .interview-icon img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .interview-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .interview-content p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  /* 버튼 스타일 */
+  .start-interview-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .start-interview-button:hover {
+    background-color: #218838;
+  }
+  
